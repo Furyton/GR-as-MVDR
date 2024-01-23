@@ -24,8 +24,6 @@ All MVDR related parameters are in `mvdr_run_scripts/params.sh`.
 
 ### install SEAL
 
-ref. [facebookresearch](github.com/facebookresearch/SEAL)
-
 SEAL needs a working installation of [SWIG](https://www.swig.org/), e.g. (on Ubuntu):
 ```commandline
 sudo apt install swig
