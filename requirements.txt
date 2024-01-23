@@ -1,0 +1,16 @@
+transformers==4.28.1
+accelerate==0.19.0
+marisa-trie==1.1.0
+tqdm
+nltk
+jsonlines
+fuzzywuzzy
+more_itertools
+spacy
+psutil
+ftfy
+ujson
+beautifulsoup4
+shortuuid
+python-Levenshtein
+pyserini

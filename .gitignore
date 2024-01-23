@@ -1,0 +1,15 @@
+__pycache__
+*.ipynb
+*.pt
+*.log
+*.faiss
+*.hdf5
+output*
+wandb
+cache
+bm25.*index
+bm25.*/*.json
+*.pickle
+*.resource
+trainasdev*
+checkpoints
