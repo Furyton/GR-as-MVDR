@@ -1,8 +1,10 @@
 # GR as MVDR
 
-This repository contains the code to reproduce the experiments from our paper **Generative Retrieval as Multi-Vector Dense Retrieval**, which has been accepted by SIGIR'24.
+This repository contains the code to reproduce the experiments from our paper [**Generative Retrieval as Multi-Vector Dense Retrieval**](https://arxiv.org/abs/2404.00684), which has been accepted at SIGIR'24.
 
-**note**: we will post our paper on arXiv as a pre-print version soon and provide the link to the checkpoints of our re-implemented T5-ColBERT and T5-SEAL.
+**Update** on April 6th, 2024: we have post our paper on arXiv, you can find it [here](https://arxiv.org/abs/2404.00684).
+
+**Note** on March 29th, 2024: we will post our paper on arXiv as a pre-print version soon and provide the link to the checkpoints of our re-implemented T5-ColBERT and T5-SEAL.
 
 ## Abstract
 
@@ -102,3 +104,17 @@ This will create an output diretory in `output/gr.DATA.train` by default, which 
 
 All GR related parameters are in `gr_run_scripts/params.sh`.
 
+---
+
+If you find this work helpful, please cite our paper:
+
+```bib
+@article{wu2024generative,
+      title={Generative Retrieval as Multi-Vector Dense Retrieval}, 
+      author={Shiguang Wu and Wenda Wei and Mengqi Zhang and Zhumin Chen and Jun Ma and Zhaochun Ren and Maarten de Rijke and Pengjie Ren},
+      year={2024},
+      eprint={2404.00684},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
+```
