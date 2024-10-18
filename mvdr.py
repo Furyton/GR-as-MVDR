@@ -537,8 +537,8 @@ def train(args, collection=None, triples=None, queries=None):
                 optimizer.zero_grad()
 
                 with torch.no_grad():
+                    loss = accelerator.gather(loss).mean()
                     if accelerator.is_local_main_process:
-                        loss = accelerator.gather(loss).mean()
                         loss_report.append(loss.item())
 
                         ma_loss = np.mean(loss_report[-100:])
